@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(
+        135deg,
+        #fff5f8,
+        #ffe9f0
+    );
+}
+
+.container,
+.info-container{
+    text-align:center;
+    padding:40px;
+}
+
+h1{
+    font-size:3rem;
+    color:#444;
+    margin-bottom:30px;
+}
+
+.subtitle{
+    margin-top:25px;
+    color:#777;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    margin-top:30px;
+    position:relative;
+    height:150px;
+}
+
+.btn{
+    border:none;
+    padding:15px 35px;
+    font-size:1.2rem;
+    border-radius:20px;
+    cursor:pointer;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.yes-btn{
+    background:#ff7bac;
+    color:white;
+    transition: transform 0.15s ease;
+}
+
+.yes-btn:hover{
+    transform:scale(1.08);
+}
+
+.no-btn{
+    position:fixed;
+    background:white;
+    border:2px solid #ddd;
+    z-index: 1000;
+}
+
+.cute-icon{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:15px auto;
+    width:350px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
